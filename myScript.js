@@ -1,0 +1,11 @@
+theKid = document.createElement("div");
+theKid.setAttribute('class', 'unit buy-btn-sec2');
+theKid.setAttribute('id', 'mprod-buy-btn2');
+var imgURL = chrome.extension.getURL("comp_Flip.png");
+var url = "http://compare.buyhatke.com/products/";
+var title = document.title;
+title = title.split(" ");
+var title2 = title[0] + "-" + title[1] + "-" + title[2];
+var urlToFollow = url + title2;
+theKid.innerHTML = '<a target="_blank" alt="Compare via Compare Hatke" title="Compare via Compare Hatke" href='+ urlToFollow + ' class="fk-inline-block buy-btn fksk-buy-btn"><img src=' + imgURL +'></a>';
+document.getElementById('mprod-buy-btn').parentNode.childNodes[1].parentNode.insertBefore(theKid, document.getElementById('mprod-buy-btn').parentNode.childNodes[1].nextSibling);

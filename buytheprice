@@ -1,0 +1,1 @@
+$('#btpbutton').after('<a type="submit" class="btn btn-warning" style="padding:10px 30px 10px 35px;font-size:22px;font-weight:bold;text-transform:lowercase"><i class="icon-shopping-cart1"></i> Compare Now</a>')

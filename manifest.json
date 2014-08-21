@@ -1,0 +1,333 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "jquery.js", "background2.js" ]
+   },
+   "browser_action": {
+      "default_icon": "ext_gray.png",
+      "default_popup": "popup.html",
+      "default_title": "Compare Hatke : Click me to check the current prices of the products you had set alert for."
+   },
+   "content_scripts": [ {
+      "css": [ "FlipStyle.css", "allNeed.css", "prediction.css", "cover.css" ],
+      "matches": [ "http://*/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "compare.js" ],
+      "matches": [ "http://www.compare.buyhatke.com/*", "http://compare.buyhatke.com/*", "https://www.compare.buyhatke.com/*", "https://compare.buyhatke.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "compare.js" ],
+      "matches": [ "http://www.compare-mobiles.buyhatke.com/*", "http://compare-mobiles.buyhatke.com/*", "https://www.compare-mobiles.buyhatke.com/*", "https://compare-mobiles.buyhatke.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "indiarush.js" ],
+      "matches": [ "http://www.indiarush.com/*", "http://indiarush.com/*", "https://indiarush.com/*", "https://www.indiarush.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "chumbak.js" ],
+      "matches": [ "http://www.chumbak.com/*", "http://chumbak.com/*", "https://chumbak.com/*", "https://www.chumbak.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "donebynone.js" ],
+      "matches": [ "http://www.donebynone.com/*", "http://donebynone.com/*", "https://donebynone.com/*", "https://www.donebynone.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "zoomin.js" ],
+      "matches": [ "http://www.zoomin.com/*", "http://zoomin.com/*", "https://zoomin.com/*", "https://www.zoomin.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "goibibo.js" ],
+      "matches": [ "http://www.goibibo.com/*", "http://goibibo.com/*", "https://goibibo.com/*", "https://www.goibibo.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "freecultr.js" ],
+      "matches": [ "http://www.freecultr.com/*", "http://freecultr.com/*", "https://freecultr.com/*", "https://www.freecultr.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "purplle.js" ],
+      "matches": [ "http://www.purplle.com/*", "http://purplle.com/*", "https://purplle.com/*", "https://www.purplle.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "yatra.js" ],
+      "matches": [ "http://secure.yatra.com/*", "http://www.secure.yatra.com/*", "https://secure.yatra.com/*", "https://www.secure.yatra.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "mmt_int.js" ],
+      "matches": [ "http://cheapfaresindia.makemytrip.com/*", "http://www.cheapfaresindia.makemytrip.com/*", "https://cheapfaresindia.makemytrip.com/*", "https://www.cheapfaresindia.makemytrip.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "rediff_oth.js" ],
+      "matches": [ "http://www.shopping.rediff.com/*", "http://shopping.rediff.com/*", "https://shopping.rediff.com/*", "https://shopping.rediff.com/*", "http://commerce.rediff.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "mirraw.js" ],
+      "matches": [ "http://www.mirraw.com/*", "http://mirraw.com/*", "https://mirraw.com/*", "https://www.mirraw.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "cleartrip.js" ],
+      "matches": [ "http://www.cleartrip.com/*", "http://cleartrip.com/*", "https://cleartrip.com/*", "https://www.cleartrip.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "buyingiq.js" ],
+      "matches": [ "http://www.buyingiq.com/*", "http://buyingiq.com/*", "https://buyingiq.com/*", "https://www.buyingiq.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "spix.js" ],
+      "matches": [ "http://www.smartprix.com/*", "http://smartprix.com/*", "https://smartprix.com/*", "https://smartprix.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "zovi.js", "highcharts.js", "exporting.js" ],
+      "matches": [ "http://www.zovi.com/*", "http://zovi.com/*", "https://zovi.com/*", "https://zovi.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "blue.js" ],
+      "matches": [ "http://www.bluestone.com/*", "http://bluestone.com/*", "https://bluestone.com/*", "https://bluestone.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "ngal.js" ],
+      "matches": [ "http://www.n-gal.com/*", "http://n-gal.com/*", "https://n-gal.com/*", "https://n-gal.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "indemp.js" ],
+      "matches": [ "http://www.indiaemporium.com/*", "http://indiaemporium.com/*", "https://indiaemporium.com/*", "https://indiaemporium.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "dominos.js" ],
+      "matches": [ "http://www.pizzaonline.dominos.co.in/*", "http://pizzaonline.dominos.co.in/*", "https://pizzaonline.dominos.co.in/*", "https://www.pizzaonline.dominos.co.in/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "cbazaar.js" ],
+      "matches": [ "http://www.cbazaar.in/*", "http://cbazaar.in/*", "https://cbazaar.in/*", "https://cbazaar.in/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "foodpanda.js" ],
+      "matches": [ "http://www.foodpanda.in/*", "http://foodpanda.in/*", "https://foodpanda.in/*", "https://www.foodpanda.in/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "redbus.js" ],
+      "matches": [ "http://www.redbus.in/*", "http://redbus.in/*", "https://redbus.in/*", "https://www.redbus.in/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "trendin.js" ],
+      "matches": [ "http://www.trendin.com/*", "http://trendin.com/*", "https://trendin.com/*", "https://www.trendin.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "sas.js" ],
+      "matches": [ "http://www.strapsandstrings.com/*", "http://strapsandstrings.com/*", "https://strapsandstrings.com/*", "https://strapsandstrings.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "ps.js" ],
+      "matches": [ "http://www.prettysecrets.com/*", "http://prettysecrets.com/*", "https://prettysecrets.com/*", "https://prettysecrets.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "s19.js" ],
+      "matches": [ "http://www.shopnineteen.com/*", "http://shopnineteen.com/*", "https://shopnineteen.com/*", "https://shopnineteen.com/*" ]
+   }, {
+      "css": [ "FlipStyle.css", "allNeed.css", "offer.css" ],
+      "js": [ "jquery.js", "FlipScript.js", "highcharts.js", "exporting.js" ],
+      "matches": [ "http://www.flipkart.com/*", "http://flipkart.com/*", "https://www.flipkart.com/*", "https://flipkart.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "InfiScript.js" ],
+      "matches": [ "http://www.infibeam.com/*", "http://infibeam.com/*", "https://www.infibeam.com/*", "https://infibeam.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "rediff.js" ],
+      "matches": [ "http://books.rediff.com/*", "http://books.rediff.com/*", "https://www.books.rediff.com/*", "https://books.rediff.com/*", "http://commerce.rediff.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "bookScript.js" ],
+      "matches": [ "http://www.bookadda.com/*", "http://bookadda.com/*", "https://www.bookadda.com/*", "https://bookadda.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "ebay.js" ],
+      "matches": [ "http://www.order2.ebay.in/*", "http://order2.ebay.in/*", "http://www.ebay.in/*", "https://www.order2.ebay.in/*", "https://order2.ebay.in/*" ]
+   }, {
+      "css": [ "myntraStyle.css", "allNeed.css" ],
+      "js": [ "jquery.js", "myntraScript.js", "highcharts.js", "exporting.js" ],
+      "matches": [ "http://www.myntra.com/*", "http://myntra.com/*", "https://www.myntra.com/*", "https://myntra.com/*" ]
+   }, {
+      "css": [ "shopCluesStyle.css", "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "shopCluesScript.js", "highcharts.js", "exporting.js" ],
+      "matches": [ "http://www.shopclues.com/*", "http://shopclues.com/*", "https://www.shopclues.com/*", "https://shopclues.com/*", "https://secure.shopclues.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "mmt.js" ],
+      "matches": [ "http://www.flights.makemytrip.com/*", "http://flights.makemytrip.com/*", "https://www.flights.makemytrip.com/*", "https://flights.makemytrip.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "fnp.js" ],
+      "matches": [ "http://www.fnp.com/*", "http://fnp.com/*", "https://www.fnp.com/*", "https://fnp.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "fashionara.js" ],
+      "matches": [ "http://www.fashionara.com/*", "http://fashionara.com/*", "https://www.fashionara.com/*", "https://fashionara.com/*" ]
+   }, {
+      "css": [ "pepperfry.css", "allNeed.css" ],
+      "js": [ "jquery.js", "pepperfry.js" ],
+      "matches": [ "http://www.pepperfry.com/*", "http://pepperfry.com/*", "https://www.pepperfry.com/*", "https://pepperfry.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "fb.js" ],
+      "matches": [ "http://www.futurebazaar.com/*", "http://futurebazaar.com/*", "https://www.futurebazaar.com/*", "https://futurebazaar.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "landmark.js" ],
+      "matches": [ "http://www.landmarkonthenet.com/*", "http://landmarkonthenet.com/*", "https://www.landmarkonthenet.com/*", "https://landmarkonthenet.com/*" ]
+   }, {
+      "css": [ "shop.css", "allNeed.css" ],
+      "js": [ "jquery.js", "shop.js" ],
+      "matches": [ "http://www.shoppersstop.com/*", "http://shoppersstop.com/*", "https://www.shoppersstop.com/*", "https://shoppersstop.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "jabong.js", "highcharts.js", "exporting.js" ],
+      "matches": [ "http://www.jabong.com/*", "http://jabong.com/*", "https://www.jabong.com/*", "https://jabong.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "touchTradus.js" ],
+      "matches": [ "http://www.tradus.com/*", "http://tradus.com/*", "https://www.tradus.com/*", "https://tradus.com/*", "http://delhi.tradus.com/*", "http://mumbai.tradus.com/*", "http://bangalore.tradus.com/*", "http://hyderabad.tradus.com/*", "http://surat.tradus.com/*", "http://chennai.tradus.com/*", "http://ahmedabad.tradus.com/*", "http://kolkata.tradus.com/*", "http://jaipur.tradus.com/*", "http://pune.tradus.com/*", "https://*.tradus.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "touchTradus.js" ],
+      "matches": [ "http://www.touch.tradus.com/*", "http://touch.tradus.com/*", "https://www.touch.tradus.com/*", "https://touch.tradus.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "koovs.js" ],
+      "matches": [ "http://www.koovs.com/*", "http://koovs.com/*", "https://www.koovs.com/*", "https://koovs.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "yebhi.js" ],
+      "matches": [ "http://www.yebhi.com/*", "http://yebhi.com/*", "https://www.yebhi.com/*", "https://yebhi.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "hk.js" ],
+      "matches": [ "http://www.healthkart.com/*", "http://healthkart.com/*", "https://www.healthkart.com/*", "https://healthkart.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "baby.js" ],
+      "matches": [ "http://www.babyoye.com/*", "http://babyoye.com/*", "https://www.babyoye.com/*", "https://babyoye.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "hb.js" ],
+      "matches": [ "http://www.hushbabies.com/*", "http://hushbabies.com/*", "https://www.hushbabies.com/*", "https://hushbabies.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "h18.js", "highcharts.js", "exporting.js" ],
+      "matches": [ "http://www.homeshop18.com/*", "http://homeshop18.com/*", "https://www.homeshop18.com/*", "https://homeshop18.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "snapdeal.js", "highcharts.js", "exporting.js" ],
+      "matches": [ "http://www.snapdeal.com/*", "http://snapdeal.com/*", "https://www.snapdeal.com/*", "https://snapdeal.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "uread.js" ],
+      "matches": [ "http://www.uread.com/*", "http://uread.com/*", "https://www.uread.com/*", "https://uread.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "indiacake.js" ],
+      "matches": [ "http://www.indiacakes.com/*", "http://indiacakes.com/*", "https://www.indiacakes.com/*", "https://indiacakes.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "napptol.js" ],
+      "matches": [ "http://www.naaptol.com/*", "http://naaptol.com/*", "https://www.naaptol.com/*", "https://naaptol.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "acadZone.js" ],
+      "matches": [ "http://www.acadzone.com/*", "http://acadzone.com/*", "https://www.acadzone.com/*", "https://acadzone.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "crossword.js" ],
+      "matches": [ "http://www.crossword.in/*", "http://crossword.in/*", "https://www.crossword.in/*", "https://crossword.in/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "floralis.js" ],
+      "matches": [ "http://www.floralis.in/*", "http://floralis.in/*", "https://www.floralis.in/*", "https://floralis.in/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "indiatimes.js" ],
+      "matches": [ "http://www.shopping.indiatimes.com//*", "http://shopping.indiatimes.com/*", "https://www.shopping.indiatimes.com/*", "https://shopping.indiatimes.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "adexmart.js" ],
+      "matches": [ "http://www.adexmart.com//*", "http://adexmart.com/*", "https://www.adexmart.com/*", "https://adexmart.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "watchkart.js" ],
+      "matches": [ "http://www.watchkart.com/*", "http://watchkart.com/*", "https://www.watchkart.com/*", "https://watchkart.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "lenskart.js" ],
+      "matches": [ "http://www.lenskart.com/*", "http://lenskart.com/*", "https://www.lenskart.com/*", "https://lenskart.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "watchkart.js" ],
+      "matches": [ "http://www.bagskart.com/*", "http://bagskart.com/*", "https://www.bagskart.com/*", "https://bagskart.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "jewelskart.js" ],
+      "matches": [ "http://www.jewelskart.com/*", "http://jewelskart.com/*", "https://www.jewelskart.com/*", "https://jewelskart.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "zivame.js" ],
+      "matches": [ "http://www.zivame.com/*", "http://zivame.com/*", "https://www.zivame.com/*", "https://zivame.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "cilory.js" ],
+      "matches": [ "http://www.cilory.com/*", "http://cilory.com/*", "https://www.cilory.com/*", "https://cilory.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css", "reset.min.css" ],
+      "js": [ "jquery.js", "amazon.js", "highcharts.js", "exporting.js" ],
+      "matches": [ "http://www.amazon.in/*", "http://amazon.in/*", "https://www.amazon.in/*", "https://amazon.in/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "grabmore.js" ],
+      "matches": [ "http://www.grabmore.in/*", "http://grabmore.in/*", "https://www.grabmore.in/*", "https://grabmore.in/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "goodlife.js" ],
+      "matches": [ "http://www.goodlife.com/*", "http://goodlife.com/*", "https://www.goodlife.com/*", "https://goodlife.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "msp.js" ],
+      "matches": [ "http://www.mysmartprice.com/*", "http://mysmartprice.com/*", "https://www.mysmartprice.com/*", "https://mysmartprice.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "junglee.js" ],
+      "matches": [ "http://www.junglee.com/*", "http://junglee.com/*", "https://www.junglee.com/*", "https://junglee.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "croma.js" ],
+      "matches": [ "http://www.cromaretail.com/*", "http://cromaretail.com/*", "https://www.cromaretail.com/*", "https://cromaretail.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "fabfurnish.js" ],
+      "matches": [ "http://www.fabfurnish.com/*", "http://fabfurnish.com/*", "https://www.fabfurnish.com/*", "https://fabfurnish.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "bigrock.js" ],
+      "matches": [ "http://www.bigrock.in/*", "http://bigrock.in/*", "https://www.bigrock.in/*", "https://bigrock.in/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "Price Comparision on Flipkart, Amazon and 70 others.Add best coupons automatically with just a click.Set alerts to track price drops",
+   "icons": {
+      "128": "logo_128x128.png",
+      "16": "logo_16x16.png",
+      "32": "logo_32x32.png",
+      "48": "logo_48x48.png",
+      "64": "logo_64x64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDF+gyDnnVmMBNYNRZEQS2Va+GldnLbEzECmyZKUb4NRNRScNe7ceZn5rRwgBtAwR16N0qYBAUfoCJQCIOEJbhcuQfBA18NLjvElqqr7BADZN3vM/iHJzYlVjWknsd69QfDBRGeXb/rRVZnn5X/FVBFwyYWo26GkoIO0PQ/KUpB2wIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "6",
+   "name": "Compare Hatke",
+   "omnibox": {
+      "keyword": "buyhatke"
+   },
+   "options_page": "options.html",
+   "permissions": [ "http://compare.buyhatke.com/*", "http://buyhatke.com/*", "http://www.flipkart.com/*", "http://www.myntra.com/*", "http://www.snapdeal.com/*", "http://*.tradus.com/*", "http://www.cromaretail.com/*", "http://www.yebhi.com/*", "http://www.homeshop18.com/*", "http://www.jabong.com/*", "http://www.amazon.in/*", "http://www.shopclues.com/*", "http://track.in.omgpm.com/*", "http://rover.ebay.in/*", "http://rover.ebay.com/*", "http://www.ebay.in/*", "http://zovi.com/*", "http://shopping.indiatimes.com/*", "http://shopping.rediff.com/*", "http://www.infibeam.com/*", "http://www.zivame.com/*", "http://www.lenskart.com/*", "http://www.watchkart.com/*", "http://www.fashionara.com/*", "http://ad.doubleclick.net/*", "http://www.fabfurnish.com/*", "http://www.pepperfry.com/*", "http://jasper.go2cloud.org/*", "http://www.trendin.com/*", "http://buyh.tk/*", "http://clk.pvnsolutions.com/*", "http://www.babyoye.com/*", "contextMenus", "notifications", "tabs" ],
+   "short_name": "Compare Hatke",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.3.144",
+   "web_accessible_resources": [ "ico_green.ico", "apply-coupon.png", "ico_blue.ico", "ico_gray.ico", "comp_Flip.png", "comp_infi.png", "seventyMM.png", "yebhi2.png", "TRADUS.png", "sstop.png", "futurebazaar.png", "landmark.png", "bookadda.png", "infy.png", "indtimes.png", "naaptol.png", "indiacakes.png", "snapdeal.png", "hs18.png", "hushbabies2.png", "healthkart2.png", "ut.png", "floralis.png", "healthkart.png", "flipkart.png", "FNP.png", "70mm.png", "acadzone.png", "uread.png", "rediffbooks.png", "watch-price1.png", "lap.png", "tv.png", "red-cross-button.gif", "jabong.png", "amazon.png", "cs-buyh.png", "options.html", "fb.png", "gp.png", "tw.png", "logo.png" ]
+}

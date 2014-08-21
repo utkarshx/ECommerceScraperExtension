@@ -1,0 +1,1 @@
+$('.clicktoBuy').find('a').after('<a target="_blank" href=' + url + ' class="buyButton">Click here to Buy</a>');

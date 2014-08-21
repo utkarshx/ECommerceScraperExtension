@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+  <head>
+    <title>Compare Hatke</title>
+    <script type='text/javascript' src='popup.js'>
+    </script>
+    <link rel="stylesheet" type="text/css" href="http://cdn.webrupee.com/font"> 
+<style>  
+
+body{
+min-width: 354px;
+min-height: 500px;
+overflow-x: hidden;
+overflow-y: auto;
+margin:0;
+border-top:1px solid #ddd;
+}    
+.itemWrap{
+height: 100px;
+width: 340px;
+padding: 7px;
+font-family: calibri;
+font-size: 16px;
+color: black!important;
+border-bottom:1px solid #ddd;
+}
+.itemWrap:hover{
+background:#f9f9f9;
+}
+.itemWrap:active{
+background: #ddd;
+}
+.imageDiv{
+height: 90px;
+width: 90px;
+padding:5px;
+background: white;
+float: left;
+-webkit-box-shadow:0px 3px 8px -1px #bbb;
+}
+.imageDiv img{
+max-height:90px;
+max-width:90px;
+margin:0 auto;
+display:block;
+}
+.prodName{
+color: black!important;
+height: 50px;
+padding-top: 20px;
+overflow: hidden;
+width: 230px;
+margin-left: 5px;
+float: right;
+word-break: break-all;
+font-size: 14px;
+}
+.storeRow{
+float: right;
+width: 230px;
+height: 30px;
+}
+.prodStore{
+font-weight: bold;
+color: #777!important;
+overflow: auto;
+float: left;
+width: 140px;
+}
+.prodPrice{
+color: black!important;
+overflow: hidden;
+text-align: center;
+float: right;
+width: 90px;
+word-break: break-all;
+}
+/* Custom CSS scrollbar */
+::-webkit-scrollbar {
+width: 10px;
+height: 8px;
+background:#f5f5f5;
+}
+::-webkit-scrollbar:hover { 
+background: #e2e2e2;
+}
+::-webkit-scrollbar-thumb {
+width: 2px;
+height:20px;
+background: #aaa;
+border-radius: 7px;
+}
+::-webkit-scrollbar-thumb:hover {
+background: #777;
+}
+::-webkit-scrollbar-thumb:active {
+background: #444;
+}
+input[type='text']{
+outline:none;
+margin-left:10px;
+}input[type='submit']{
+margin-left:40px;
+}
+#enterDiv{
+margin-left:-55px;
+font-family:calibri;
+}
+#about{
+color:#ccc;
+font-size:12px;
+font-family:calibri;
+}
+#about a{
+color:#aaa;
+text-decoration:none;
+font-family:calibri;
+}
+#about a:hover{
+color:#222;
+text-decoration:none;
+font-family:calibri;
+}
+
+button{
+width: 120px;
+height: 30px;
+margin-top: 5px;
+border: 1px solid #aaa;
+border-radius:5px;
+color: #f9f9f9;
+font:15px calibri;
+background: -webkit-linear-gradient(top, rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); 
+cursor:pointer;
+text-shadow: 0px 0px 3px #444;
+}
+button:hover{
+background: -webkit-linear-gradient(top, rgba(135,224,253,1) 0%,rgba(83,203,241,1) 0%,rgba(5,171,224,1) 100%);
+text-shadow: 0px 0px 3px #bbb;
+color:white;
+}
+button:active{
+background: -webkit-linear-gradient(top, rgba(0,146,165,1) 0%,rgba(0,154,201,1) 100%); 
+color:#ccc;
+padding-top:2px;
+text-shadow: none;
+}
+
+</style>
+  </head>
+  <body>
+    <div id='showData'>
+      
+  </div>
+  </body>
+</html>

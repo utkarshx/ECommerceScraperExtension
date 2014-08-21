@@ -1,0 +1,114 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>CompareHatke Settings</title>
+
+	<style>
+		*{
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		html,body{
+			height: 100%;
+		}
+		body{
+			margin: 0;
+			font-family: arial, helvetica, sans-serif;
+		}
+		#s-wrap{
+			min-height: 100%;
+			padding-bottom: 30px;
+		}
+		.container{			
+			max-width: 960px;
+			margin: 0 auto;
+			padding: 0 10px;
+		}
+		header{
+			padding:10px 0;
+			background: #fcfcfc;
+			border-bottom:1px solid #eee;
+		}
+		#logo{
+			display: inline-block;
+		}
+		#logo img{
+			width: 200px;
+		}
+		h1{
+			font-weight: normal;
+			color:#444;
+		}
+
+		h3{
+			font-weight: normal;
+			color:#222;
+			font-style: italic;
+		}
+		.ch-w{
+			display: block;
+			padding-bottom: 15px;
+			cursor: pointer;
+		}
+
+		form input[type="button"]{
+			font-size: .8em;
+			background: none repeat scroll 0% 0% #0DB2DB;
+			padding: 10px 15px;
+			color: #FFF;
+			border: none;
+			margin-top: 10px;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+		form input[type="button"]:hover{
+			background: none repeat scroll 0% 0% #0Dc2eb;
+		}
+		form input[type="button"]:active{
+			background: none repeat scroll 0% 0% #0D99cc;
+		}
+		.ch-b{
+			margin-right:.5em;
+		}
+		footer{
+			height: 30px;
+			padding: 8px;
+			margin-top:-30px;
+			background: #333;
+			color: #fff;
+			font-size: 12px;
+		}
+	</style>
+</head>
+<body>
+	<div id="s-wrap">
+		<header>
+			<div class="container">
+				<a href="http://compare.buyhatke.com/" id="logo">
+					<img src="buyhatke_logo_big.png" alt="BuyHatke">
+				</a>
+
+			</div>
+		</header>
+		<section>
+
+			<div class="container">
+				<h1>Modify the extension's settings</h1>
+				<h3>Offers</h3>
+				<form id="savingsForm">
+				</form>
+			</div>
+		</section>
+	</div>
+
+	<footer>
+		<div class="container">
+		 	<span id="allrightres">&#9400; Bidon Services Private Limited. All rights reserved.</span>
+		 </div>
+	</footer>
+	<script src="jquery.js"></script>
+	<script src="options.js"></script>
+	
+</body>
+</html>
